@@ -1,1 +1,81 @@
-ECHO is on.
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.9em;
+  margin: 0 auto;
+  padding: 0;
+}
+.container {
+  width: 960px;
+  margin: 10px auto;
+}
+a {
+  text-decoration: none;
+  color: #00f3a9;
+  text-align: center;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: green;
+}
+
+.categories {
+  border: 2px solid #f4f4a2;
+  padding: 15px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: 3px solid black;
+  list-style-position: inside;
+  list-style-image: url("check.jpg");
+}
+
+ul {
+  list-style: none;
+}
+
+.box-1 {
+  background-color: #333333;
+  padding: 10px;
+  margin: 10px auto;
+  color: white;
+  border: 5px solid #ff3a2a;
+}
+.myforum {
+  padding: 20px;
+}
+.myforum label {
+  display: block;
+}
+.myforum input[type="submit"] {
+  background-color: darkgray;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.block{
+    float: left;
+    width: calc(80%/3);
+    margin: 10px;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 3px solid #f4ffa2;
+}
+.clear{
+    clear: both;
+}
