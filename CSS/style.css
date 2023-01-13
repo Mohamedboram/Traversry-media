@@ -127,7 +127,6 @@ nav {
 }
 /* boxes */
 #boxes {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,9 +149,24 @@ img {
   -o-border-radius: 50%;
 }
 /* footer */
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: #cddbe4;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #cddbe4;
+}
+/* about page styling */
+article#main-col {
+  float: left;
+  width: 30%;
+  font-family: "Open Sans", sans-serif;
+  color: #e68799;
+  font-weight: bold;
+}
+aside#sidebar {
+  float: right;
+  width: 60%;
+}
+#sidebar img{
+    margin: 20px;
 }
