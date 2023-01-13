@@ -1,1 +1,158 @@
-ECHO is on.
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* global for all the divs in our html home page */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.clear {
+  clear: both;
+}
+header {
+  background-color: #cddbe4;
+  color: #ffa23a;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px #39364a solid;
+}
+header a {
+  color: #39364a;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header a:hover {
+  color: #87783b;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header li {
+  float: left;
+  padding: 0 10px;
+  display: inline;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+}
+h1 {
+  margin-top: 5px;
+}
+nav {
+  float: right;
+  margin-top: 15px;
+}
+#branding {
+  float: left;
+}
+#header {
+  color: black;
+  font-family: "Charmonman", cursive;
+}
+/* this is the show case section and it's maily the most important */
+#showcase {
+  min-height: 400px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/img/scout1.jpg");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+}
+#showcase h2 {
+  margin-top: 100px;
+  padding-top: 20px;
+  font-family: "Amita", cursive;
+  font-size: 50px;
+}
+#showcase p {
+  font-size: 29px;
+  font-weight: bold;
+  color: rgba(10, 10, 10, 0.9);
+
+  font-family: "Cairo", sans-serif;
+  word-spacing: 0.5em;
+}
+/* here is the newsletter */
+#newsletter {
+  background-color: #cddbe4;
+  padding: 20px;
+  color: black;
+}
+#newsletter h2 {
+  float: left;
+  margin: 15px auto;
+  padding: 10px;
+}
+#newsletter form {
+  float: right;
+  margin: 15px auto;
+}
+#newsletter input {
+  border-style: none;
+  padding: 4px;
+  height: 24px;
+  width: 240px;
+  height: 40px;
+}
+#newsletter .button {
+  padding: 6px;
+  background-color: #e43008;
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: "Cairo", sans-serif;
+  border-style: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+/* boxes */
+#boxes {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 0 15px;
+  padding: 0 20px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #cddbe4;
+}
